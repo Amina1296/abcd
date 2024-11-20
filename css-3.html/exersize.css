@@ -1,0 +1,99 @@
+
+
+
+.pct-parent {
+    width: auto;
+    height: 200px;
+    background-color: orange;
+}
+
+.box{
+    display:inline-block ;
+   width: 200px;
+   height: 100px;
+}
+.pct-child-1 {
+    background-color:skyblue;
+}
+.pct-child-2{
+    background-color: green;
+}
+.pct-child-3{
+    background-color: red;
+}
+.box1{
+    display: inline-block;
+    width:100vw;
+    height:100vh;
+    background-color: azure;
+}
+
+.sesac{
+    display:inline-block;
+    color:white;
+    background-color: blue;
+    width: 10vw; 
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+}
+.d-inline1 {
+    display: inline;
+    background-color: lightblue;
+  }
+  
+  .d-inline2 {
+    display: inline;
+    background-color: lightcoral;
+  }
+  
+  .d-block1 {
+    display: block;
+    background-color: lightblue;
+  }
+  
+  .d-block2 {
+    display: block;
+    background-color: lightcoral;
+    /* width: 200px;
+    height: 200px; */
+  }
+  
+  .d-inline-block1 {
+    display: inline-block;
+    background-color: blue;
+  }
+  
+  .d-inline-block2 {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    width: calc(300px - 100px); /* = 200px */
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+  }
+  .border {
+    width:100px;
+    height:100px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-top:2px solid red;
+    border-right:4px dashed blue;
+    border-bottom:2px groove green;
+    border-left:4px double gray;
+    
+  }
+  /*border-radius: 10px 20px 0px 30px;*/
+
+
+.haha {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+ }
+ .haha:hover{
+  opacity: 0;
+  
+ }

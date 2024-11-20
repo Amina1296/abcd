@@ -1,0 +1,14 @@
+.div1:hover{ 
+    background-color: blue;
+    width:200px;
+    }
+    
+    .div1:active{
+        background-color: red;
+        height:300px;
+    }
+    input:focus{
+        background-color:yellow;
+        color: red;
+       
+    }

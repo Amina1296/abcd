@@ -1,0 +1,31 @@
+
+input[placeholder]{
+    background-color: orange;
+}
+input[value]{
+    background-color: blue;
+}
+input[disabled]{
+    background-color: red;
+}
+
+span:hover {
+    background-color: black;
+    color:white;
+}
+textarea:focus {
+    background-color:pink;
+}
+input[type="checkbox"]:active{}
+
+.red:active {
+     background-color: red;
+    }
+
+
+    
+    
+    
+
+
+
