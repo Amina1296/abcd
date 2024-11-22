@@ -1,0 +1,22 @@
+span:hover{
+    background-color: black;
+    color:white;
+   }
+   textarea:active{
+       width: 200px;
+       height:200px;
+       background-color: antiquewhite;
+   }
+   
+   
+   
+   button:active{
+       background-color: aqua;}
+   
+[checked]:active{
+
+}
+
+input[value="빨간"]:checked + label { background-color: red; }
+input[value="파랑"]:checked + label { background-color: blue;}
+input[value="노랑"]:checked + label { background-color: yellow;}

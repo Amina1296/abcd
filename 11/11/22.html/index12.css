@@ -1,0 +1,170 @@
+
+/*div {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+  
+    position: absolute;
+  }
+  
+  /* 
+      Z-index
+      - 겹치는 요소에 대한 순서를 결정
+      - 숫자값: 양수, 0, 음수
+      - 숫자값이 클수록 더 위에 쌓임. (=가장 앞에 놓인다)
+  
+  
+.div1 {
+    top: 100px;
+    left: 100px;
+    background-color: red;
+    z-index: 8;
+  }
+  
+.div2 {
+    top: 140px;
+    left: 140px;
+    background-color: orange;
+    z-index: 6;
+  }
+  
+.div3 {
+    top: 180px;
+    left: 180px;
+    background-color: yellow;
+    z-index: 10;
+  }
+  
+.div4 {
+    top: 220px;
+    left: 220px;
+    background-color: green;
+    z-index: 4;
+  }
+  
+.div5 {
+    top: 260px;
+    left: 260px;
+    background-color: blue;
+    z-index: 12;
+  }*/
+
+/*.container{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: blueviolet;
+} 
+div{ 
+    width: 100px;
+    height: 100px;
+
+}
+.item2{
+    top:30px;
+    left: 30px;
+    background-color: aqua;
+    z-index: 3;
+    position: absolute;
+    text-align: right;
+}
+.item3{
+    top:60px;
+    left:60px;
+    background-color: bisque;
+    z-index: 4;
+    position: absolute;
+    text-align: right;
+} 
+.item1{
+    background-color: brown;
+    z-index: 5;
+    position: absolute;
+}*/
+.border1{
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    background: linear-gradient(90deg, red,pink);
+    border-radius: 200px 200px 200px 200px;
+    position: relative;
+}
+
+.border{
+    
+    border-radius: 200px 200px 200px 200px;
+    width: 380px;
+    height: 380px;
+    background-image: url(./image1/cat.jpg);
+    position:absolute;
+    top:10px;
+    left:10px;
+   
+}
+
+.container{
+    width: 520px;
+    height: 520px;
+    background-color:gray;
+    border-radius: 70px;
+    position: relative;
+}
+.div{
+    width: 250px;
+    height: 250px;
+}
+.red{
+    background-color: red;
+    border-radius: 60px 0 0 0 ;
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+.orange{
+    background-color: orange;
+    border-radius: 0 60px 0 0 ;
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+.green{
+    background-color: green;
+    border-radius: 0 0 60px 0;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 0 0 0 60px;
+    position: absolute;
+    left:10px;
+    bottom:10px;
+}
+.div1{
+    width:110px;
+    height: 110px;
+}
+.black{
+    background-color: black;
+    position:absolute;
+    left:150px;
+    top:150px;
+}
+.white{
+    background-color: white;
+    position: absolute;
+    right:150px;
+    bottom:150px;
+}
+
+.gray{
+    width: 80px;
+    height: 80px;
+    background-color: gainsboro;
+    position:absolute;
+    left:220px;
+    bottom:220px;
+}

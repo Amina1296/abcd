@@ -47,4 +47,6 @@
   
   /* white-space: normal(defalut); */
   /* - 개행 */
-  
+  .border {
+    border: 2px solid blue;
+  }

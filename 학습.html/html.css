@@ -1,31 +1,18 @@
+span:hover{
+ background-color: black;
+ color:white;
+}
+textarea:active{
+    width: 200px;
+    height:200px;
+    background-color: antiquewhite;
+}
 
-input[placeholder]{
-    background-color: orange;
-}
-input[value]{
-    background-color: blue;
-}
-input[disabled]{
+
+
+button:active{
+    background-color: aqua;}
+
+.red:checked{
     background-color: red;
 }
-
-span:hover {
-    background-color: black;
-    color:white;
-}
-textarea:focus {
-    background-color:pink;
-}
-input[type="checkbox"]:active{}
-
-.red:active {
-     background-color: red;
-    }
-
-
-    
-    
-    
-
-
-

@@ -1,0 +1,127 @@
+/*.container{
+    width: 300px;
+    height: 450px;
+    background-color: blue;
+    margin: 0 auto;
+
+   display: flex;
+    flex-direction: row;
+   
+    /*align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline; */
+  /*  flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse;*/
+     /*align-content: stretch;
+     align-content: flex-start;
+     align-content: space-between;
+     align-content: space-around;
+     align-content: space-evenly;
+
+}
+
+.items{
+    width :100px;
+    height: 100px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+.item1{
+    background-color: aqua;
+    font-size: 10px;
+}
+.item2{
+    background-color: pink;
+    font-size: 15px;
+}
+.item3{
+    background-color: blueviolet;
+    font-size: 20px;
+}
+.item4{
+    background-color: red;
+    font-size: 25px;
+}
+.item5{
+    background-color: green;
+    font-size: 30px;
+} */
+
+/*.container1 {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+   display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start
+ ;
+}
+.div{
+    width: 100px;
+    height: 100px;
+
+}
+.item1{
+    background-color: red;
+}
+.item2{
+    background-color: yellow;
+}
+.item3{
+    background-color: purple;
+}
+.item4{
+    background-color: burlywood;
+}
+.item5{
+    background-color: greenyellow;
+}
+.item6{
+    background-color: chocolate;
+}
+.item7{
+    background-color:azure;
+}
+.item8{
+    background-color: hotpink;
+}*/
+ .container{
+    width: 1000px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+    display: flex;
+    
+ }
+ .item{
+    width: 100px;
+    height: 100px;
+
+ }
+ .flex1{
+    width: 1000px;
+    height:100px;
+    background-color: orange  ;
+    justify-content: flex-end;
+
+ }
+ .fl1-1{
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    position:absolute;
+    right: 10px;
+    top: 10px;
+ }
+ .flex3{
+    width: 1000px;
+    height:100px;
+    background-color:green;
+    position: absolute;
+    top:300px;
+
+ }

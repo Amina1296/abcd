@@ -73,17 +73,13 @@
     text-align: center;
     line-height: 200px;
   }
-  .border {
+  .hey {
     width:100px;
     height:100px;
     border-width: 5px;
     border-style: solid;
     border-color: red;
-    border-top:2px solid red;
-    border-right:4px dashed blue;
-    border-bottom:2px groove green;
-    border-left:4px double gray;
-    
+   
   }
   /*border-radius: 10px 20px 0px 30px;*/
 
@@ -96,4 +92,14 @@
  .haha:hover{
   opacity: 0;
   
+ }
+ .border{
+  border:7px solid blueviolet;
+  width:100px;
+  height:100px;
+border-top: 5px solid green;
+border-right: 7px dashed blue;
+border-bottom: 5px groove black;
+border-left: 4px dashed yellow;
+border-radius: 10px 50px 10px 20px;
  }
