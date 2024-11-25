@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+    width: 500px;
+    height: auto;
+}
+
+.media{ 
+    background-color: red;
+    height: 70px;
+    width: 100px;
+}
+
+
+
+ @media( min-width: 300px) ;
+   
+  .media{
+    background-color: blue;
+    height: 100px;
+  }
+  body{
+    background-color: orange;
+
+  }
+@media( max-height: 300px);
+    body{
+        background-color: orange;
+        
+
+}

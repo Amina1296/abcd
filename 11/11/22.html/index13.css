@@ -90,38 +90,43 @@
     background-color: hotpink;
 }*/
  .container{
-    width: 1000px;
+    width:800px;
     height: 400px;
     background-color: yellow;
-    position: relative;
-    display: flex;
+  
     
  }
  .item{
     width: 100px;
     height: 100px;
-
+ }
+ .item1{
+    
  }
  .flex1{
-    width: 1000px;
+    width: 800px;
     height:100px;
     background-color: orange  ;
-    justify-content: flex-end;
-
+    display: flex;
+    justify-content: space-around;
+   
  }
  .fl1-1{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color: aqua;
-    position:absolute;
-    right: 10px;
-    top: 10px;
+    flex-direction: row;
+    
+
+
  }
+
+
  .flex3{
-    width: 1000px;
+    width: 800px;
     height:100px;
     background-color:green;
     position: absolute;
-    top:300px;
+    top: 300px;
 
  }
