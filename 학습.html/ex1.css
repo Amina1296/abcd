@@ -1,22 +1,48 @@
-span:hover{
-    background-color: black;
-    color:white;
-   }
-   textarea:active{
-       width: 200px;
-       height:200px;
-       background-color: antiquewhite;
-   }
-   
-   
-   
-   button:active{
-       background-color: aqua;}
-   
-[checked]:active{
+.container{
+    width: 1000px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+    line-height: 80px;
+    text-align: center;
+}
+.flex1{
+    width: 100%;
+
+    background-color: orange;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+.flex3{
+    width: 1000px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left:0px;
+    bottom: 0px;
 
 }
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
 
-input[value="빨간"]:checked + label { background-color: red; }
-input[value="파랑"]:checked + label { background-color: blue;}
-input[value="노랑"]:checked + label { background-color: yellow;}
+
+.fl1-1{
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.fl2-3{
+    background-color: blue;
+    position: relative;
+    top: 10px;
+    right: 10px;
+
+}

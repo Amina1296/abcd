@@ -1,69 +1,40 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>선택자 종합실습</title>
-    <link rel="stylesheet" href="./ex1.css" >  
-     <style>
-      form {
-        width: 400px;
-      }
-
-      /* focus */
-      textarea {
-        width: 100%;
-      }
-      /* checked */
-      /* active */
-      button {
-        float: right;
-        padding: 5px 15px;
-        background-color: #f96666;
-        color: white;
-        font-size: 17px;
-        border-radius: 10px;
-        border: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="건의 사항을 적어주세요!">
-
-    <span>건의 사항을 적어주세요!</span>
-    <br />
-        <textarea 
-            placeholder="건의 사항"
-            width:300px; height:200px;
-        ></textarea>
-       
-
-        <div class="box">
-            <input type="checkbox" value="빨간" id="red" checked/><label for="red">빨간</label>
-            <input type="checkbox" value="파랑" /><label for="blue">파랑</label>
-            <input type="checkbox" value="노랑" /><label for="yellow">노랑</label>
-        </div>
-
-      <!-- label
-        - 명시적 방식: id와 for 맞춰주기
-        - 암시적 방식: label 내부에 input 쓰기 
-            - checkbox 사용 시 명시적 방식으로 진행하기	
-      -->
-
-      <!-- checkbox와 textarea 만들기 -->
-      
-      <button>제출</button>
-  </body>
-</html>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>flex 심화</title>
+  <link rel="stylesheet" href="./ex1.css">
 </head>
 <body>
+  <div class="container">
+    <div class="flex1">
+      <div class="item fl1-1">1</div>
+      <div class="item fl1-1">2</div>
+      <div class="item fl1-1">3</div>
+    </div>
+    <div class="flex2">
+      <div class="flex2-1">
+        <div class="item fl2-1">4</div>
+      </div>
+      <div class="flex2-2">
+        <div class="item fl2-2">5</div>
+      </div>
+      <div class="flex2-3">
+        <div class="item fl2-3">6</div>
+        <div class="item fl2-3">7</div>
+        <div class="item fl2-3">8</div>
+      </div>
+      <div class="flex2-4">
+        <div class="item fl2-4">9</div>
+      </div>
+    </div>
+    <div class="flex3">
+      <div class="item fl3-1">10</div>
+      <div class="item fl3-2">11</div>
+      <div class="item fl3-3">12</div>
+    </div>
+  </div>
   
 </body>
 </html>
