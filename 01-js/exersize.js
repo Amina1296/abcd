@@ -1,12 +1,8 @@
-let a=2;
-let b=1;
-while(a<10){
-    while(b<10){
-        console.log(`${a} x ${b} = ${a * b}`);
-        b++;
-    }
-    a++;
-    b=1;
+var dun = 98;
+console.log(dun>95);
+
+if (dun > 95){
+    console.log("үнэлгээ : A");
     
 }
 

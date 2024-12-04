@@ -1,10 +1,3 @@
-const fruits =[ 'orange', 'pineapple','grape', 'apple']
-console.log('friuts');
-console.log(a);
-var a=2;
-console.log(a);
-
-
 // 자료형 (data types)
 // Q) 데이터 (변수)의 종류가 무엇인가?
 // - Primitive(원시 타입) : string, number, boolean, undefined, null, ...
@@ -90,11 +83,12 @@ let ex = 2;
 let am = '2';
 let s = 2;
 console.log(ex + am - s);
-console.log('------------------');
-
 // 2?
 // 20
 // JS -> 느슨한 언어의 단점
+
+
+(2)
 
 // 6. 배열 (Array)
 // 배열의 이름: fruits
@@ -237,5 +231,3 @@ console.log(Number(undefined), typeof Number(undefined)); // NaN, number
 // NaN = Not-A-Number (= 숫자가 아님)
 // 정의 되지 않은 값이 숫자로 변환 될 수 없기 때문!
 console.log(Number(null), typeof Number(null)); // 0, number
-
-

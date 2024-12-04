@@ -87,9 +87,7 @@ const result = loginUser();
 console.log(result);
 
 
-Leader_Damon
-  Friday at 5:08 PM
-07_conditional.js
+(2)
 // 조건문
 /**
  * 어떤 조건에 따라 논리 구조를 나눔.
