@@ -220,9 +220,12 @@ console.log(str2.toString(), typeof str2.toString());
 let n1 = true; // boolean
 let n2 = false; // boolean
 let n3 = 123.9; // number
+let n4 = 'margaash;'
 console.log(Number(n1), typeof Number(n1)); // 1
 console.log(Number(n2), typeof Number(n2)); // 0
 console.log(Number(n3), typeof Number(n3)); // 123.9 - 실수
+console.log(Number(n4), typeof Number(n4));
+
 console.log(parseInt(n3, 10)); // n3 값을 10진수의 정수(int)로 바꾸겠다. // 123
 console.log(parseFloat(n3)); // n3 값을 실수(float)로 바꾸겠다. // 123.9
 
@@ -231,3 +234,26 @@ console.log(Number(undefined), typeof Number(undefined)); // NaN, number
 // NaN = Not-A-Number (= 숫자가 아님)
 // 정의 되지 않은 값이 숫자로 변환 될 수 없기 때문!
 console.log(Number(null), typeof Number(null)); // 0, number
+
+
+ let fruits1 = ["orange", "apple", "mango", "kiwi"];
+ console.log(fruits1);
+ console.log(fruits[0],fruits1[1],fruits1[2],fruits1[3]);
+
+ let cat1 = {
+    name: 'aminaa',
+    age: 28,
+    isCute : true,
+    mew : function (){
+        return 'meow'
+    }
+
+ }
+ console.log(cat1);
+ console.log(cat1.name);
+ console.log(cat1.age);
+ console.log(cat1.isCute);
+ console.log(cat1.mew);
+ 
+ 
+ 

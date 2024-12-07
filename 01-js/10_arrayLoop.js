@@ -33,10 +33,10 @@ console.log('---------------------');
 // - 이 반복은 배열의 요소를 직접 참조하므로 인덱스를 사용할 필요가 X
 
 // Ex)
-// const alphabets = ['a', 'b', 'c', 'd'];
+ //const alphabets1 = ['a', 'b', 'c', 'd'];
 
-// for (let alpha of alphabets) {
-//     console.log(`alpha >>> ${alpha}`);
+ //for (let alpha of alphabets1) {
+  //   console.log(`alpha >>> ${alpha}`);
 // }
 // - 배열 'alphabets'의 각 요소를 반복하면서 'alpha' 변수에 순서대로 할당하고,
 //   각각 요소에 대해 반복문 블록 실행.
@@ -54,14 +54,14 @@ const alphabets = ['a', 'b', 'c', 'd'];
 
 // alphabets.forEach(function (alpha) {
 //     // alpha: currentValue를 의미. = 반복하고 있는 현재 요소
-//     console.log('Element: ', alpha);
-// });
+  //  console.log('Element: ', alpha);
+ //});
 
-// alphabets.forEach(function (alpha, idx) {
+ //alphabets.forEach(function (alpha, idx) {
 //     // alpha: currentValue를 의미. = 반복하고 있는 현재 요소
 //     // idx: cureentValue의 인덱스 (위치)
-//     console.log(`Element: ${alpha}, Index: ${idx}`);
-// });
+ //    console.log(`Element: ${alpha}, Index: ${idx}`);
+ //});
 
 alphabets.forEach(function (alpha, idx, arr) {
     // alpha: currentValue를 의미. = 반복하고 있는 현재 요소

@@ -82,7 +82,57 @@ console.log(str3.repeat(4)); // dinnerdinnerdinnerdinner
 console.log('----------------');
 
 
+// * 배열 내장 메서드
+let arr = [1, 2, 3, 4, 5];
+let arr2 = ['dog', 'panda', 'tiger', 'monkey'];
 
+console.log('arr >>>> ', arr);
+// How? 배열에 값을 추가하려면?
+// 6이라는 인덱스를 추가 하고 싶다.
+arr[5] = 6; // arr 배열의 5번 인덱스에 6이라는 값을 추가.
+console.log('arr >>>> ', arr);
+arr[8] = 100; // 인덱스를 건너뛰면 빈 값(empty)이 들어가게 됨.
+console.log('arr >>>> ', arr);
+
+// #1. push(): 맨 끝에 요소 추가
+arr.push(6);
+arr.push(10);
+console.log('arr >>>> ', arr);
+
+// #2. pop(): 맨 끝에 요소 제거
+arr.pop();
+console.log('arr >>>> ', arr);
+
+// #3. unshift(): 맨 앞에 요소 추가
+arr2.unshift('cat');
+console.log('arr2 >>>> ', arr2);
+
+// #4. shift(): 맨 앞에 요소 제거
+arr2.shift();
+console.log('arr2 >>>> ', arr2);
+
+// #5. length: 배열의 길이 반환
+console.log(arr.length);
+
+// #6. includes(요소): 요소가 있는지 없는지 검사. - (true, false) 반환.
+console.log(arr2.includes('panda')); // 존재하므로 true
+console.log(arr2.includes('lion')); // 존재하므로 false
+
+// #7. reverse()
+console.log(arr.reverse()); // 역순으로 바뀜.
+console.log('arr >>>> ', arr); // 원본 배열이 변경됨.
+
+// #8. join(): join 안의 문자열 기준으로 병합.
+console.log('arr2 >>>> ', arr2);
+console.log(arr2.join('')); // dogpandatigermonkey
+console.log(arr2.join('-')); // dog-panda-tiger-monkey
+console.log('-----------------------');
+
+// * 메서드 체이닝 (method chaining)
+// - 여러 메서드를 연결해서 사용할 수 있다.
+console.log('hello'.split('')); // ['h', 'e', 'l', 'l', 'o']
+console.log('hello'.split('').reverse()); // ['o', 'l', 'l', 'e', 'h']
+console.log('hello'.split('').reverse().join('')); // olleh
 
 
 

@@ -1,8 +1,9 @@
-var dun = 98;
-console.log(dun>95);
-
-if (dun > 95){
-    console.log("үнэлгээ : A");
-    
+let amina = 0;
+for( let b=1; b<=20, b++;) {
+    if (b % 2 === 0) {
+        amina = amina + b;
+        console.log(b, amina);
+        
+    }
 }
-
+console.log(amina);
