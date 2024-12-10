@@ -92,7 +92,7 @@ console.log(b);
 
 for(niit=0; niit<=10000; niit++)
     if( niit % 13 === 0 && niit % 2===1){  
-    console.log(niit);}
+    console.log(niit);};
 
 
 //const too= prompt('durtai toogoo oruulna uu');
@@ -106,7 +106,11 @@ for(niit=0; niit<=10000; niit++)
 
 let i= 1;
 let c= 1;
-for ( i=2; i<10;i++)
-    if(   c=1, c<10, c++){
-        console.log(i +'x'+ c+ '=', i*c);
+for ( i < 10) {
+    for (c <10;) {
+
     }
+}
+function changeImg() {
+    $('.apple').changeImg ('img', src=Image/image/apple.jpeg)
+}
